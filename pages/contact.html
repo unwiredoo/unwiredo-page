@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unwiredo</title>
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+  </head>
+  <body>
+    <header>
+        <div id="header-items">
+            <div id="navi-bar">
+                <div id="home-option" class="navi-options"><a href="../index.html">//home</a></div>
+                <div id="gear-option" class="navi-options"><a href="gear.html">//my gear</a></div>
+                <div id="blog-option" class="navi-options"><a href="blog.html">//blog</a></div>
+                <div id="store-option" class="navi-options"><a href="store.html">//store</a></div>
+                <div id="contact-option" class="navi-options"><a href="contact.html">//contact</a></div>
+            </div>
+            
+            <div id="menu-button-container">
+              <button class="menu-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="36px"
+                  viewBox="0 -960 960 960"
+                  width="36px"
+                  fill="#000000"
+                >
+                  <path
+                    d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+                  />
+                </svg>
+              </button>
+            </div>
+        </div>
+      <nav id="burguer-menu">
+        <ul>
+          <button id="close-menu"></button>
+          
+          <li><a href="../index.html">//home</a></li>
+          <li><a href="about.html">//about me</a></li>
+          <li><a href="gear.html">//my gear</a></li>
+          <li><a href="blog.html">//blog</a></li>
+          <li><a href="contact.html">//contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section id="contact-me">
+            <h1>contact</h1>
+            <p>if you have good questions, collab ideas or really just want to hi you can drop a message bellow...</p>
+        </section>
+
+        <form action="https://formspree.io/f/mjybegvr" method="POST" class="contact-form">
+
+            <div class="form-row">
+
+              <div class="form-field">
+                <input class="contact-field" type="text" id="name" name="name" placeholder="name" required>
+              </div>
+
+              
+              <div class="form-field">
+                <input class="contact-field" type="text" type="email" id="email" name="email" placeholder="email" required>
+              </div>
+              
+            </div>
+
+            <div class="form-message">
+              <div class="form-field">
+                <textarea placeholder="your message" class="input-message" name="message" id="message" rows="8" required></textarea>
+              </div>
+            </div>
+
+
+            <div class="form-actions">
+              <button class="submit-button" type="submit">submit</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+      <div id="footer-content">
+        <div id="footer-grid-container">
+
+            <div id="footer-box1" class="footer-box">
+              <p><a href="../index.html">unwiredo</a></p>
+              <div id="oneko-icon" class="footer-icon"></div>
+            </div>
+
+            <div id="footer-box2" class="footer-box">
+              <div>
+                <p id="current-time-p">currently in lisbon ()</p>
+              </div>
+
+              <div id="buy-me-a-coffee">
+                <div id="coffee-icon" class="footer-icon"></div>
+                <a href="">buy me a coffee</a>
+              </div>
+            </div>
+
+            <div id="footer-box3" class="footer-box footer-social">
+                <a href="https://www.youtube.com/@unwiredoo" target="_blank" id="footer-youtube"  class="footer-social"></a>
+                <a href="https://www.instagram.com/unwiredoo/" target="_blank" id="footer-instagram"class="footer-social"></a>
+                <a href="https://github.com/unwiredoo-ux" target="_blank" id="footer-github" class="footer-social"></a>
+                <a href="https://discord.com/invite/BPZnhFBUA5" target="_blank" id="footer-discord" class="footer-social"></a>
+            </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/date.js" type="module"></script>
+    <script src="../scripts/script.js" type="module"></script>
+  </body>
+</html>

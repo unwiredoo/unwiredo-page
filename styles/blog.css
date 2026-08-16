@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+  --font3: "Inter", sans-serif;
+
+  --color1: rgb(180, 180, 180);
+}
+
+#blog-art{
+    background-image: url(../images/fallenangel.jpg);
+    background-position: 24% 24%;
+}
+
+.posts-container{
+    height: auto;
+    width: 1200px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    border-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.post-box{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.post-box:hover{
+    background-color: rgb(195, 195, 195);
+}
+
+.post-info-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.post-number{
+    margin-left: 30px;
+}
+
+.post-date-box{
+    display: flex;
+}
+
+.post-date{
+    margin-right: 30px;
+}
+
+
+
+/*media query*/
+
+
+@media (max-width: 1220px){
+    .posts-container{
+        width: 800px;
+    }
+}
+
+@media (max-width: 820px){
+    .posts-container{
+        width: 460px;
+    }
+}
+
+@media (max-width: 480px){
+    .posts-container{
+        width: 300px;
+    }
+
+    .post-info-box{
+        gap: 10px;
+    }
+
+    .post-number{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .post-title{
+        font-size: 14px;
+    }
+
+    .post-date{
+        display: none;
+    }
+}
