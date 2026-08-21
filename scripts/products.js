@@ -328,9 +328,9 @@ export const backpack = [
         title: "apple earpods",
         price: "$20",
         function: "buy now",
-        description: "",
+        description: "for the price, these earphones are very hard to beat. I've owned them for almost two years and they're still going strong",
         image: "../images/setup/earpods.JPG",
-        buyLink: "for the price, these earphones are very hard to beat. I've owned them for almost two years and they're still going strong",
+        buyLink: "",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -365,17 +365,6 @@ export const stores = [
         buyLink: "https://uk.webuy.com/",
         articleLink: "https://uk.webuy.com/"
     },
-
-    {
-        title: "jpfans",
-        price: "japanese",
-        function: "visit now",
-        description: "this thing lets you buy things directly from japan. however, if the product is really big, I wouldn't recommend it because of the shipping costs",
-        image: "../images/sites/jpfans.png",
-        buyLink: "https://jpfans.com/",
-        articleLink: "https://jpfans.com/"
-    },
-
 
     {
         title: "ebay",
@@ -435,7 +424,7 @@ export const wishlist = [
         title: "books",
         price: "$3 - $30",
         function: "gift me",
-        description: "I really enjoy reading books, so if you ever want to gift me one, feel free to check out my reading list. I'll thank everyone who sends me a book at the end of my videos, and I'll also read any letter you include with it...",
+        description: "I really enjoy reading books, so if you ever want to gift me one, feel free to check out my reading list. I'll thank everyone who sends me a book in my videos",
         image: "../images/wishlist/books.jpg",
         buyLink: "https://www.youtube.com/watch?v=rc46ADSdv-k",
         articleLink: "https://www.youtube.com/watch?v=rc46ADSdv-k"
@@ -455,7 +444,7 @@ export const wishlist = [
         title: "macbook pro m4",
         price: "$1500",
         function: "see more",
-        description: "while my gaming laptop works completely fine, sometimes I wish I had something both powerful and portable that's why sometimes I think about replacing it with a macbook pro (though I don't plan to buy it any time soon)",
+        description: "while my gaming laptop works completely fine, sometimes I wish I had something both powerful and portable...",
         image: "../images/wishlist/macbookpro.jpg",
         buyLink: "https://www.youtube.com/watch?v=etP2Th9g2hM",
         articleLink: "https://www.youtube.com/watch?v=etP2Th9g2hM"

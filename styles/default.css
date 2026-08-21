@@ -470,6 +470,11 @@ footer {
   #footer-box2{
     display: none;
   }
+
+  #footer-box1,
+  #footer-box3{
+    padding: 0 30px;
+  }
 }
 
 @media(max-width: 480px){
@@ -493,5 +498,10 @@ footer {
 
   #footer-grid-container{
     width: 300px;
+  }
+
+  #footer-box1,
+  #footer-box3{
+    padding: 0 10px;
   }
 }

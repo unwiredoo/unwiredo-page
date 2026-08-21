@@ -1,7 +1,7 @@
 import { wishlist, cooltech, stores, backpack, edc, setup } from "./products.js";
 
-const favoritesTopic = document.getElementById("favorites-topic-btn");
-const storesTopic = document.getElementById("stores-topic-btn");
+const favoritesTopic = document.getElementById("favorites-topic");
+const storesTopic = document.getElementById("stores-topic");
 const cooltechTopic = document.getElementById("cooltech-topic");
 const nicheTopic = document.getElementById("niche-topic-btn");
 
@@ -33,7 +33,7 @@ storesTopic.addEventListener("click", () => {
   currentPage = 1;
   createProducts(currentProducts);
   window.scrollTo({
-            top: 1100,
+            top: 1000,
             behavior: "smooth"
   });
 });
@@ -43,7 +43,7 @@ cooltechTopic.addEventListener("click", () => {
   currentPage = 1;
   createProducts(currentProducts);
   window.scrollTo({
-            top: 1100,
+            top: 1000,
             behavior: "smooth"
   });
 });
@@ -53,7 +53,7 @@ nicheTopic.addEventListener("click", () => {
   currentPage = 1;
   createProducts(currentProducts);
   window.scrollTo({
-            top: 1100,
+            top: 1000,
             behavior: "smooth"
   });
 });
@@ -149,28 +149,28 @@ function createProducts(products) {
   for(const product of pageProducts){
     html+= `
     <div class="product-box">
-    <div class="product-image" style="background-image: url(${product.image});">
-    <a class="see-more-container" target="_blank" href="${product.articleLink}">see more <div class="see-more-icon"></div></a>
-    </div>
-    
-    <div class="product-info">
-    <div class="product-title">
-    <div class="product-title-container">
-    <h2>${product.title}</h2>
-    </div>
-    </div>
-    
-    <div class="product-details">
-    <p>${product.description}</p>
-    </div>
-    
-    <div class="product-actions">
-    <div class="product-actions-container">
-    <p class="product-price">${product.price}</p>
-    <a class="product-link" target="_blank" href="${product.buyLink}">${product.function} <div class="shop-icon"></div></a>
-    </div>
-    </div>
-    </div>
+      <div class="product-image" style="background-image: url(${product.image});">
+      <a class="see-more-container" target="_blank" href="${product.articleLink}">see more <div class="see-more-icon"></div></a>
+      </div>
+      
+      <div class="product-info">
+        <div class="product-title">
+        <div class="product-title-container">
+          <h2>${product.title}</h2>
+        </div>
+      </div>
+      
+      <div class="product-details">
+      <p>${product.description}</p>
+      </div>
+      
+      <div class="product-actions">
+      <div class="product-actions-container">
+      <p class="product-price">${product.price}</p>
+      <a class="product-link" target="_blank" href="${product.buyLink}">${product.function} <div class="shop-icon"></div></a>
+      </div>
+      </div>
+      </div>
     </div>
     
     `
