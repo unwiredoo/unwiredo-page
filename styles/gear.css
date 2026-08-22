@@ -21,6 +21,16 @@
   box-sizing: border-box;
 }
 
+html,
+body{
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+  display: none;
+}
+
 body{
   background-color: rgb(251, 251, 251);
 }
