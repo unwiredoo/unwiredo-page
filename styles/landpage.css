@@ -9,6 +9,16 @@
   --font2: "Montserrat", sans-serif;
 }
 
+html,
+body{
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +41,7 @@ header {
 }
 
 #header-items {
-  width: 80vw;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,8 +49,6 @@ header {
 
 .social {
   display: flex;
-  padding-bottom: 5px;
-  border-bottom: 1px solid black;
 }
 
 .social-logo {
@@ -126,7 +134,7 @@ header {
   color: black;
 }
 
-#main {
+#main-desktop {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,7 +246,7 @@ footer {
 }
 
 #mobile-photo-container{
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,7 +295,7 @@ footer {
 
 #mobile-options-container{
   margin-top: 30px;
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,7 +375,7 @@ footer {
 }
 
 @media (max-width: 820px){
-  #main{
+  #main-desktop{
     display: none;
   }
 
