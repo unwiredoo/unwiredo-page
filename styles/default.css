@@ -240,20 +240,13 @@ footer {
   display: flex;
   align-items: end;
   justify-content: center;
-  width: 100vw;
-}
-
-#footer-content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 #footer-grid-container{
   background-color: whitesmoke;
   width: 1200px;
   height: 70px;
+  padding: 10px;
 
 
   display: grid;
@@ -425,29 +418,28 @@ footer {
 
 @media (max-width: 1220px){
   #header-items{
-    width: 800px;
+    width: 95%;
   }
 
   #navi-bar{
-    width: 500px;
+    width: 80%;
   }
 
   .section-image{
-    width: 800px;
+    width: 95%;
   }
 
   .section-intro{
-    width: 800px;
+    width: 92%;
   }
 
   #footer-grid-container{
-    width: 800px;
+    width: 95%;
   }
 }
 
-@media(max-width: 820px){
+@media (max-width: 724px){
   #header-items{
-    width: 460px;
     justify-content: end;
   }
 
@@ -455,53 +447,27 @@ footer {
     display: none;
   }
 
-  .section-image{
-    width: 460px;
-  }
 
-  .section-intro{
-    width: 460px;
-  }
+}
 
-  #footer-grid-container{
-    width: 460px;
-  }
-
+@media (max-width: 767px){
   #footer-box2{
     display: none;
   }
-
-  #footer-box1,
-  #footer-box3{
-    padding: 0 30px;
-  }
 }
 
-@media(max-width: 480px){
+@media (max-width: 480px){
+  .section-image{
+    height: 250px;
+  }
+
   #burguer-menu{
     width: 300px;
   }
+}
 
-  #header-items{
-    width: 300px;
-    height: 70px;
-  }
-
+@media (max-width: 360px){
   .section-image{
-    width: 300px;
     height: 200px;
-  }
-
-  .section-intro{
-    width: 300px;
-  }
-
-  #footer-grid-container{
-    width: 300px;
-  }
-
-  #footer-box1,
-  #footer-box3{
-    padding: 0 10px;
   }
 }
