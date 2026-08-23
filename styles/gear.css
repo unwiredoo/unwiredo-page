@@ -673,14 +673,19 @@ footer {
     height: 500px;
   }
 
+  #gear-options-box{
+    width: 90%;
+  }
+
   #products-container{
+    width: 90%;
     margin-top: 20px;
     grid-template-columns: 1fr;
   }
 
   .product-box{
-    width: 70%;
-    height: 640px;
+    width: 100%;
+    height: 800px;
   }
 
   #footer-box2{
@@ -696,10 +701,6 @@ footer {
 @media(max-width: 712px){
   #products-container{
     margin-top: 0;
-  }
-
-  .product-box{
-    width: 84%;
   }
 }
 
@@ -718,7 +719,7 @@ footer {
   }
 
   .product-box{
-    width: 100%;
+    height: 600px;
   }
 
   #wishlist-option{
@@ -767,6 +768,10 @@ footer {
   .topic-icon{
     width: 110px;
     height: 110px;
+  }
+
+  .product-box{
+    height: 450px;
   }
 
   #gear-intro-image{

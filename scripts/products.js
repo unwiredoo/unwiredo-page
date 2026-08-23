@@ -5,7 +5,7 @@ export const setup = [
         function: "buy now",
         description: "very inexpensive standing desk, I bought it because I wanted to mimic a japanese desk, though it really wasn't enough...",
         image: "../images/setup/sense7nojo.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4iuJHdg",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -15,7 +15,7 @@ export const setup = [
         function: "buy now",
         description: "this is my current monitor, it's ips and has 165hz. it's a really good and simple monitor",
         image: "../images/setup/omen24.JPG",
-        buyLink: "",
+        buyLink: "https://www.bestbuy.com/product/hp-omen-23-8-ips-led-fhd-freesync-premium-monitor-displayport-hdmi-black/JJGG7ZZGZX",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -25,7 +25,7 @@ export const setup = [
         function: "buy now",
         description: "very simple and minimal mini pc, I use it for coding and studying. despite its size, it's powerfull and fast, especially with linux...",
         image: "../images/setup/geekoma5pro.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4hTVeTv",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -33,9 +33,9 @@ export const setup = [
         title: "msi gp66 leopard",
         price: "$770",
         function: "buy now",
-        description: "I bought it for $770 bucks 2 years ago, it has an rtx 3080, which means this laptop is still a beast in 2026...",
+        description: "I bought it for $770 two years ago, and with an RTX 3080, this laptop is still a beast in 2026. However, I wouldn’t pay more than $900 for it today.",
         image: "../images/setup/msigp66.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=msi+gp66+leopard&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -55,7 +55,7 @@ export const setup = [
         function: "buy now",
         description: "cool lamp that I bought at ikea",
         image: "../images/setup/lamp.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4xchcFR",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -65,7 +65,7 @@ export const setup = [
         function: "buy now",
         description: "nice and minimal keyboard, maybe a buy-it-for-life purchase...",
         image: "../images/setup/keychronk2he.JPG",
-        buyLink: "",
+        buyLink: "https://www.keychron.com/products/keychron-k2-he-wireless-magnetic-switch-custom-keyboard-resin-edition?ref=UNWIREDO",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -75,7 +75,7 @@ export const setup = [
         function: "buy now",
         description: "very comfy and simple mouse",
         image: "../images/setup/keychronm6.JPG",
-        buyLink: "",
+        buyLink: "https://www.keychron.com/products/keychron-m6-wireless-mouse?ref=UNWIREDO",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -85,7 +85,7 @@ export const setup = [
         function: "buy now",
         description: "random amazon bookstand that my sister bought me as a christmas present some years ago...",
         image: "../images/setup/bookstand.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/3S96XDc",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -95,7 +95,7 @@ export const setup = [
         function: "buy now",
         description: "cool huge mousepad. it's not the best for gamers, but it really does its job when it comes to hiding desk usage marks...",
         image: "../images/setup/hugemousepad.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4xRoIG3",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -105,7 +105,7 @@ export const setup = [
         function: "buy now",
         description: "pretty normal side drawer, it used to belong to my younger brother's previous desk...",
         image: "../images/setup/drawer.JPG",
-        buyLink: "",
+        buyLink: "https://www.ikea.com/us/en/p/alex-drawer-unit-white-00473546/",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -115,7 +115,7 @@ export const setup = [
         function: "buy now",
         description: "very nice and inexpensive monitor arm, it doesn't take up much space and has a lot of movement flexibility.",
         image: "../images/setup/ergosolidarm.JPG",
-        buyLink: "",
+        buyLink: "https://link.amazon/B03CSvtAY",
         articleLink: "https://www.youtube.com/watch?v=FJI2igyGxiU"
     },
 
@@ -125,7 +125,7 @@ export const setup = [
         function: "buy now",
         description: "just a nice mat",
         image: "../images/setup/ikeamat.JPG",
-        buyLink: "",
+        buyLink: "https://www.ikea.com/us/en/p/aerende-rug-high-pile-gray-00576436/",
         articleLink: ""
     },
 
@@ -135,7 +135,7 @@ export const setup = [
         function: "buy now",
         description: "I think this is the perfect personal server. it's tiny and its energy consumption is ridiculously low, I believe it pays for itself after a few months",
         image: "../images/setup/miniserver.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4c6YoQ1",
         articleLink: ""
     },
 
@@ -143,9 +143,9 @@ export const setup = [
         title: "boox note air2",
         price: "$300",
         function: "buy now",
-        description: "honestly, this is the best device you can buy if you want to replace physical books and notes",
+        description: "i've linked a better option below, since this specific boox tablet is no longer being produced",
         image: "../images/setup/ereader.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4gnQIKq",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -155,7 +155,7 @@ export const setup = [
         function: "buy now",
         description: "my mother gave it to me on my 16th birthday and honestly, it was one of the best gifts I could've ever received",
         image: "../images/setup/headphones.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=sony+wh100xm4&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=msi+gp66+leopard&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
@@ -165,17 +165,17 @@ export const setup = [
         function: "buy now",
         description: "for the price, these earphones are very hard to beat. I've owned them for almost two years and they're still going strong",
         image: "../images/setup/earpods.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4wM2Jzz",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     },
 
     {
-        title: "poststicks",
+        title: "sticky notes",
         price: "$1",
         function: "buy now",
         description: "they're very useful for writing formulas, workouts, or just some simple reminders.",
         image: "../images/setup/poststicks.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4ipxMgU",
         articleLink: "https://www.youtube.com/watch?v=O1QL7fgZ-pg"
     }
 ]
@@ -187,7 +187,7 @@ export const edc = [
         function: "buy now",
         description: "just a minimal used phone, it's almost 7 years old now",
         image:"../images/edc/iphonexr.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=iphone+xr&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&LH_TitleDesc=0&_odkw=sony+wh100xm4&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=quIe4YeeIYk"
     },
 
@@ -217,7 +217,7 @@ export const edc = [
         function: "buy now",
         description: "it might seem overpriced, but I really don't think so. I can easily imagine myself as an old man still using this thing, and maybe even gifting it to my grandson",
         image: "../images/edc/minijournal.JPG",
-        buyLink: "",
+        buyLink: "https://mee-plus.com/products/mini-reporter-notebook",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -227,17 +227,17 @@ export const edc = [
         function: "buy now",
         description: "I use this one whenever I wear simpler clothes, though my grandfather's is by far the one I use the most",
         image: "../images/edc/wallet2.JPG",
-        buyLink: "",
+        buyLink: "https://peakzooc.com/products/mechguard-metal-wallet?ref=UNWIREDO",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
     {
         title: "keys",
         price: "idk",
-        function: "buy now",
+        function: "see more",
         description: "just my home keys",
         image: "../images/edc/keys.JPG",
-        buyLink: "",
+        buyLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     }
 ];
@@ -249,7 +249,7 @@ export const backpack = [
         function: "buy now",
         description: "no complaints at all, this backpack is simple, comfortable, and has a lot of space...",
         image: "../images/edc/tomtocbackpack.JPG",
-        buyLink: "",
+        buyLink: "https://www.youtube.com/redirect?event=video_description&redir_token=QUM4Zm9rUmJjanhENG9VNVpRWVBpQ3NvRGJId3xBR3JiS2FsbWZWWDlSYmZ0NGc0dDF2ZkczQkE3LUFJYkJBakxmZno2M3dVMDRSTUFtdi1YNjNVdlFCRlY2RVN4YmFNZ3FZWXlqVERnRk9FWkM5NXJqS2JpMGQ2REk5T1VGUHYy&q=https%3A%2F%2Fbit.ly%2F3RUN3eV&v=kav5Zzn_EZw",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -257,9 +257,9 @@ export const backpack = [
         title: "boox note air2",
         price: "$300",
         function: "buy now",
-        description: "honestly, this is the best device you can buy if you want to replace physical books and notes",
+        description: "i've linked a better option below, since this specific boox tablet is no longer being produced",
         image: "../images/setup/ereader.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4gnQIKq",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -269,7 +269,7 @@ export const backpack = [
         function: "buy now",
         description: "same specs as the thinkpad t480, but with this really nice japanese aesthetic that I love",
         image: "../images/edc/panasoniclaptop.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=panasonic+let%27s+note+cf-sv7&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&LH_TitleDesc=0&_odkw=iphone+xr&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=zXyhAEo5x1k"
     },
 
@@ -280,7 +280,7 @@ export const backpack = [
         function: "buy now",
         description: "this was actually supposed to be a gaming mouse, but I use it as an edc mouse because it's light, compact and matches with the let's note aesthetic...",
         image: "../images/edc/keychrong4.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4imQSUT",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -290,7 +290,7 @@ export const backpack = [
         function: "buy now",
         description: "it didn't actually cost me anything. it belonged to my sister and was just sitting around at home, so I decided to give it a second life...",
         image: "../images/edc/psp.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=psp+3000&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&LH_TitleDesc=0&_odkw=panasonic+let%27s+note+cf-sv7&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=o-qlqcpExiM"
     },
 
@@ -330,7 +330,7 @@ export const backpack = [
         function: "buy now",
         description: "for the price, these earphones are very hard to beat. I've owned them for almost two years and they're still going strong",
         image: "../images/setup/earpods.JPG",
-        buyLink: "",
+        buyLink: "https://amzn.to/4wM2Jzz",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -340,7 +340,7 @@ export const backpack = [
         function: "buy now",
         description: "my mother gave it to me on my 16th birthday and honestly, it was one of the best gifts I could've ever received",
         image: "../images/setup/headphones.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=sony+wh100xm4&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=msi+gp66+leopard&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     },
 
@@ -350,7 +350,7 @@ export const backpack = [
         function: "buy now",
         description: "just a simple graphical calculator...",
         image: "../images/edc/calculator.JPG",
-        buyLink: "",
+        buyLink: "https://www.ebay.com/sch/i.html?_nkw=ti-82stats&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&LH_TitleDesc=0&_odkw=psp+3000&_osacat=0",
         articleLink: "https://www.youtube.com/watch?v=kav5Zzn_EZw"
     }
 ]
