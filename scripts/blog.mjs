@@ -25,7 +25,7 @@ for (const file of files) {
 
     const slug = path.basename(file, ".md");
 
-    const outputDirectory = path.join("pages", "blog", slug)
+    const outputDirectory = path.join("pages", "posts", slug)
 
     fs.mkdirSync(outputDirectory, { recursive: true });
 
